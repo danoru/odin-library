@@ -1,0 +1,32 @@
+:root {
+  --pink: #F2D7D9;
+  --purple: #D3CEDF;
+  --blue: #9CB4CC;
+  --dark-blue: #748DA6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  background-color: var(--blue);
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: var(--dark-blue);
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.library-head {
+  background-color: var(--purple);
+}
+
+.library-body {
+  background-color: var(--pink);
+}

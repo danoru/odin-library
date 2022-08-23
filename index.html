@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>My Game Library</title>
   </head>
-  <body>
-    <button class="add-book" onClick={addBooktoLibrary()}>+</button>
+  <body id="content">
+    <div class="sidebar">
+      <div class="introduction">
+        <h1>My Game Library</h1>
+        <p>This is where a lot of stuff will be said.</p>
+        <p>This is where more stuff will be said.</p>
+      </div>
+      <div class="statistics">
+        <p>Games Played:</p>
+        <p>Games Unplayed:</p>
+        <p>Total Library:</p>
+        <p>Percentage Played:</p>
+      </div>
+      <div class="add-games">
+        <button type="button" class="add-button">+</button>
+      </div>
+      <div class="outro">
+        <p>Sign out.</p> 
+      </div>
+    </div>
+    <div>
+      <table class="library-display">
+        <thead class="library-head">
+          <tr>
+            <th>Title</th>
+            <th>Rating</th>
+            <th>Weight</th>
+            <th>Players</th>
+            <th>Play Time</th>
+            <th>Play Status</th>
+            <th>Removal</th>
+          </tr>
+        </thead>
+        <tbody class="library-body">
+          <tr>
+            <td>Example</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
